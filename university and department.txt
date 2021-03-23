@@ -1,0 +1,16 @@
+# #counting university wise present
+# counts = df4.College.value_counts()
+# print(counts)
+#total participate university
+# unique = df4.College.unique()
+# print(f"Total University:{len(unique)}")
+# unique
+#Total department under a university 
+# for v in unique:
+#     departments = df4.loc[df4.College == v, 'Department'].values
+#     print(f"University: {v}: \nDepartment: {list(departments)}\n")
+
+# # total college counts attend free session 
+# college.rename(columns={"College": "counts"},inplace=True)
+# # college index converted to dataframe columns
+# college.head()
